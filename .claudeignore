@@ -1,0 +1,13 @@
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+.cache/
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
