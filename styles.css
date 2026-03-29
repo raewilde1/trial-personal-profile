@@ -158,6 +158,17 @@ section:nth-child(4) { animation: fadeUp 0.6s 0.3s ease both; }
   flex-shrink: 0;
 }
 
+/* ─── Greeting ───────────────────────────────── */
+
+.greeting {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--accent);
+  letter-spacing: 0.02em;
+  margin-bottom: 56px;
+  animation: fadeUp 0.6s 0.05s ease both;
+}
+
 /* ─── About ──────────────────────────────────── */
 
 .bio {

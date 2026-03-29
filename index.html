@@ -28,6 +28,8 @@
       <hr class="header-rule">
     </header>
 
+    <p class="greeting" id="greeting"></p>
+
     <section id="about">
       <h2 class="section-heading">About</h2>
       <p class="bio">
@@ -60,6 +62,10 @@
   </div>
 
   <script>
+    const hour = new Date().getHours();
+    const greeting = hour < 12 ? 'Good morning' : hour < 17 ? 'Good afternoon' : 'Good evening';
+    document.getElementById('greeting').textContent = greeting + '.';
+
     const toggle = document.getElementById('themeToggle');
     const html = document.documentElement;
 
